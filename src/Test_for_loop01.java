@@ -1,4 +1,4 @@
-public class Test_for_loop {
+public class Test_for_loop01 {
     public static void main(String[] args) {
         //分别输出0-100之间奇数和偶数的和
         int sum_odd = 0;

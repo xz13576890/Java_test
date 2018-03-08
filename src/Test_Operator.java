@@ -1,4 +1,4 @@
-public class Operator {
+public class Test_Operator {
     public static void main(String[] args) {
 
         int a = 3;
