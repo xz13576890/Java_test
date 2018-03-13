@@ -1,4 +1,5 @@
 public class Prime_number {
+    //输出1-100之间的所有质数
         public static void main(String[] args) {
             int j;
             for (int i = 2; i <= 100; i++) // 1不是素数，所以直接从2开始循环
