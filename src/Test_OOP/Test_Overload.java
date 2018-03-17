@@ -18,8 +18,10 @@ class Mymath{
     int b;
     //overload 构造器constructor
     public Mymath(){
+
     }
     public Mymath(int a){
+
         this.a = a;
     }
     public Mymath(int b, int a){
@@ -29,9 +31,11 @@ class Mymath{
 
     //overload 普通Method
     public int add(int a,int b){
+
         return a + b;
     }
     public int add(int a,int b,int c){
+
         return a + b + c;
     }
 
