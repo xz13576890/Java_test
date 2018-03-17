@@ -1,13 +1,13 @@
-package Test_OOP;
+package Test_OOP_static;
 
 public class Student {
-    //静态的数据
      String name;
      int id;
-     int age;
-     String gender;
-     int weight;
-     Computer computer;
+     static int ss;
+     public static void printss(){
+         System.out.println(ss);
+     }
+
 
     //动态的行为
     public void study(){
