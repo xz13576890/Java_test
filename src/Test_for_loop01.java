@@ -4,7 +4,7 @@ public class Test_for_loop01 {
         int sum_odd = 0;
         int sum_even = 0;
         for (int i = 0;i<=100;i++){
-            if (i%2==0){
+            if (i%2!=0){
             sum_odd = sum_odd + i;
             }else{
                 sum_even = sum_even + i;
@@ -23,5 +23,7 @@ public class Test_for_loop01 {
                 System.out.println();
             }
         }
+
     }
+
 }
