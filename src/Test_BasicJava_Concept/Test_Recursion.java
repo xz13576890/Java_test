@@ -1,3 +1,5 @@
+package Test_BasicJava_Concept;
+
 public class Test_Recursion {
     static int a = 0;
     public static void test01(){  //用递归定义了一个循环打印自己10次的方法
@@ -19,7 +21,7 @@ public class Test_Recursion {
     }
 
     public static void main(String[] args) {
-        System.out.println("Test_Recursion.test01");
+        System.out.println("Test_BasicJava_Concept.Test_Recursion.test01");
         test01();
         System.out.println(factorial(5));
 

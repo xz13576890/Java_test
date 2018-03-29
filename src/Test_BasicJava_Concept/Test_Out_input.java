@@ -1,3 +1,5 @@
+package Test_BasicJava_Concept;
+
 import java.util.Scanner;
 public class Test_Out_input {
     public static void main(String[] args) {

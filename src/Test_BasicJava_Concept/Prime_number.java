@@ -1,3 +1,5 @@
+package Test_BasicJava_Concept;
+
 public class Prime_number {
     //输出1-100之间的所有质数
         public static void main(String[] args) {

@@ -1,4 +1,4 @@
-//打印九九乘法表
+package Test_BasicJava_Concept;//打印九九乘法表
 
 public class Test_for_loop02 {
     public static void main(String[] args) {

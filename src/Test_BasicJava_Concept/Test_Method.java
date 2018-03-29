@@ -1,3 +1,5 @@
+package Test_BasicJava_Concept;
+
 public class Test_Method {
 
     public static void outer01(){       //定义一个无形参的方法

@@ -1,3 +1,5 @@
+package Test_BasicJava_Concept;
+
 public class Test_break_continue {
     public static void main(String[] args) {
         //生成0-100的随机数，直到生成88为止，停止循环
