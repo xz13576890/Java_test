@@ -1,5 +1,9 @@
 package Test_commonClass.Wrapper_Class;
 
+/**
+ *测试包装类的基本用法
+ */
+
 public class Test_Integer {
     public static void main(String[] args) {
         Integer i = new Integer(1000); //强行把数字1000包装成Integer对象
