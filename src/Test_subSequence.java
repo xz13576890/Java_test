@@ -1,15 +1,13 @@
 import java.util.ArrayList;
-import java.util.List;
 
-public class Temp_Test {
+public class Test_subSequence {
     public static void main(String[] args) {
-        String a = "abcdeffgrjklmnc";
+        String a = "abcdeffgrjkldef";
         int length = a.length();
         String b;
         String c;
         String d = "";
-        String f = null;
-        System.out.println(f);
+
         System.out.println(d.length());
 
         ArrayList<String> al = new ArrayList<>();
@@ -20,23 +18,22 @@ public class Temp_Test {
         System.out.println(a.subSequence(3, 5));
         System.out.println(a.subSequence(6, 8));
 
-
+        //截取字符串中特定位置的字符段作为新数组（每3个字符一组）
         for (int i = 0; i < length; i += 3) {
             b = (String) a.subSequence(i, i + 3);
             al.add(b);
         }
-
         System.out.println(al);
 
+        //截取字符串中特定位置的字符段作为新数组（每3个字符中的前两个一组）
         for (int i = 0; i < length; i += 3) {
             c = (String) a.subSequence(i, i + 2);
             al2.add(c);
         }
         System.out.println(al2);
-        
+        System.out.println("#########################");
 
-
-/*
+        //通过逐一遍历检查新数组al中是否有重复元素，有一个就打一个true
         for (int j =0;j<al.size();j++){
             for (int i =j+1;i<al.size();i++){
                 if (al.get(j).equals(al.get(i))){
@@ -44,26 +41,18 @@ public class Temp_Test {
                 }
             }
         }
-        */
-/*
+        System.out.println("#########################");
+
+        //通过逐一遍历检查原字符串间隔相同距离的字符是否有重复，有一个就打一个true
         for (int j = 2;j<length;j+=3){
             for (int i =j+3;i<length;i+=3){
                 if (a.charAt(j)==a.charAt(i)){
-                    System.out.println(false);
+                    System.out.println(true);
                 }
-
             }
         }
-        */
 
     }
 
-    static boolean yy (String a){
-        if (a.length() > 2) {
-            return true;
-        } else {
-            return false;
-        }
-    }
 
 }
