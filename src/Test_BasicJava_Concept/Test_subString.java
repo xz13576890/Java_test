@@ -2,7 +2,7 @@ package Test_BasicJava_Concept;
 
 import java.util.ArrayList;
 
-public class Test_subSequence {
+public class Test_subString {
     public static void main(String[] args) {
         String a = "abcdeffgrjkldef";
         int length = a.length();
@@ -22,14 +22,14 @@ public class Test_subSequence {
 
         //截取字符串中特定位置的字符段作为新数组（每3个字符一组）
         for (int i = 0; i < length; i += 3) {
-            b = (String) a.subSequence(i, i + 3);
+            b =  a.substring(i, i + 3);
             al.add(b);
         }
         System.out.println(al);
 
         //截取字符串中特定位置的字符段作为新数组（每3个字符中的前两个一组）
         for (int i = 0; i < length; i += 3) {
-            c = (String) a.subSequence(i, i + 2);
+            c = a.substring(i, i + 2);
             al2.add(c);
         }
         System.out.println(al2);
