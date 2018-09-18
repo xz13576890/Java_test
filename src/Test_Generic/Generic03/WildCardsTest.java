@@ -28,7 +28,7 @@ public class WildCardsTest {
     }
 
     //不能用在泛型方法上
-//    public static <?>void test2(List<?> list){}
+//    public static <?>void Test_01(List<?> list){}
 
     class Test<T>{}
 

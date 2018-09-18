@@ -1,4 +1,4 @@
-package Test_BasicJava_Concept;
+package Skills;
 
 public class Prime_number {
 

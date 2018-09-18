@@ -1,4 +1,4 @@
-package Test_BasicJava_Concept;
+package Skills;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -13,7 +13,7 @@ import java.util.Scanner;
  * 每个字符的ASCII码值作为对应数组下标，例如'a'是97，在第一个字符串中出现了2次，则space[97]=2，第二个字符串中'a'也出现了2次，
  * 则space[97]=0。
  */
-public class Test_Permutation {
+public class Permutation {
 
     public static boolean isPermute01(String a, String b) {
         //数组排序法
