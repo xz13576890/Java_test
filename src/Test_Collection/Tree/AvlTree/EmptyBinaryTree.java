@@ -1,4 +1,4 @@
-package Test_Collection.Tree;
+package Test_Collection.Tree.AvlTree;
 
 /**
  * Empty Binary Tree 空白二叉树

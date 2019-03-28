@@ -1,4 +1,4 @@
-package Test_Collection.Tree;
+package Test_Collection.Tree.AvlTree;
 
 /**
  * 空白Avl二叉树

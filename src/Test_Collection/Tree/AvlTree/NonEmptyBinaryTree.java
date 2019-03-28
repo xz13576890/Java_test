@@ -1,4 +1,4 @@
-package Test_Collection.Tree;
+package Test_Collection.Tree.AvlTree;
 
 /**
  * Not empty binary tree(immutable) 非空二叉树(不可变型）

@@ -1,4 +1,4 @@
-package Test_Collection.Tree;
+package Test_Collection.Tree.AvlTree;
 
 /**
  * Avl tree: 自平衡二叉查找树

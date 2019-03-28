@@ -1,4 +1,7 @@
-package Test_Collection.Tree;
+package Test_Collection.Tree.AvlTree;
+
+import Test_Collection.Tree.AvlTree.BinaryTree;
+import Test_Collection.Tree.AvlTree.EmptyBinaryTree;
 
 /**
  * Binary Tree 二叉树Demo

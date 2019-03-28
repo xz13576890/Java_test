@@ -1,4 +1,4 @@
-package Test_Collection.Tree;
+package Test_Collection.Tree.AvlTree;
 
 /**
  * Binary Tree 二叉树抽象类

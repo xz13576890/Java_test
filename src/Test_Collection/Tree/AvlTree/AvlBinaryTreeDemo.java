@@ -1,4 +1,4 @@
-package Test_Collection.Tree;
+package Test_Collection.Tree.AvlTree;
 
 public class AvlBinaryTreeDemo {
     public static void main(String[] args) {
